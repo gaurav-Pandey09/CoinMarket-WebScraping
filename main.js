@@ -13,7 +13,7 @@ console.log("Before");
 
 request(url, cb);
 
-function cb(err, response, data) {
+function cb(err, response, html) {
   if (err) {
     //error
     console.log("Error" + err);
